@@ -11,7 +11,7 @@ var React = require('React');
 var ReactNativeViewAttributes = require('ReactNativeViewAttributes');
 var ViewPropTypes = require('ViewPropTypes');
 
-var ColorPropType = require('ColorPropType');
+var ColorPropType = require('react-native/Libraries/DeprecatedPropTypes/DeprecatedColorPropType');
 
 var requireNativeComponent = require('requireNativeComponent');
 

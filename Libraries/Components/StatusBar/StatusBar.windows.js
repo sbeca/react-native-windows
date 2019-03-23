@@ -16,7 +16,7 @@
 
 const React = require('React');
 const PropTypes = require('prop-types');
-const ColorPropType = require('ColorPropType');
+const ColorPropType = require('react-native/Libraries/DeprecatedPropTypes/DeprecatedColorPropType');
 const Platform = require('Platform');
 
 const processColor = require('processColor');

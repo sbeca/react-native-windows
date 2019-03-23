@@ -14,7 +14,7 @@
  */
 'use strict';
 
-const ColorPropType = require('ColorPropType');
+const ColorPropType = require('react-native/Libraries/DeprecatedPropTypes/DeprecatedColorPropType');
 const NativeMethodsMixin = require('NativeMethodsMixin');
 const Platform = require('Platform');
 const ProgressBarAndroid = require('ProgressBarAndroid');

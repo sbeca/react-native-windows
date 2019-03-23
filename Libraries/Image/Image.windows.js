@@ -15,15 +15,15 @@
  */
 'use strict';
 
-const ImageStylePropTypes = require('ImageStylePropTypes');
+const ImageStylePropTypes = require('react-native/Libraries/DeprecatedPropTypes/DeprecatedImageStylePropTypes');
 const NativeModules = require('NativeModules');
 const React = require('React');
 const ReactNative = require('ReactNative');
 const PropTypes = require('prop-types');
 const StyleSheet = require('StyleSheet');
-const StyleSheetPropType = require('StyleSheetPropType');
+const StyleSheetPropType = require('react-native/Libraries/DeprecatedPropTypes/DeprecatedStyleSheetPropType');
 const TextAncestor = require('TextAncestor');
-const ViewPropTypes = require('ViewPropTypes');
+const ViewPropTypes = require('react-native/Libraries/DeprecatedPropTypes/DeprecatedViewPropTypes');
 
 const flattenStyle = require('flattenStyle');
 const merge = require('merge');

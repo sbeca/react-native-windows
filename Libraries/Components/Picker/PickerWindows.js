@@ -15,13 +15,13 @@
 
 'use strict';
 
-var ColorPropType = require('ColorPropType');
+var ColorPropType = require('react-native/Libraries/DeprecatedPropTypes/DeprecatedColorPropType');
 var React = require('React');
 var ReactPropTypes = require('prop-types');
 var StyleSheet = require('StyleSheet');
-var StyleSheetPropType = require('StyleSheetPropType');
-const ViewPropTypes = require('ViewPropTypes');
-var ViewStylePropTypes = require('ViewStylePropTypes');
+var StyleSheetPropType = require('react-native/Libraries/DeprecatedPropTypes/DeprecatedStyleSheetPropType');
+const ViewPropTypes = require('react-native/Libraries/DeprecatedPropTypes/DeprecatedViewPropTypes');
+var ViewStylePropTypes = require('react-native/Libraries/DeprecatedPropTypes/DeprecatedViewStylePropTypes');
 
 var processColor = require('processColor');
 var requireNativeComponent = require('requireNativeComponent');

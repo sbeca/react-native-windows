@@ -15,10 +15,10 @@
 
 'use strict';
 
-const ColorPropType = require('ColorPropType');
+const ColorPropType = require('react-native/Libraries/DeprecatedPropTypes/DeprecatedColorPropType');
 const EdgeInsetsPropType = require('EdgeInsetsPropType');
 const PropTypes = require('prop-types');
-const StyleSheetPropType = require('StyleSheetPropType');
+const StyleSheetPropType = require('react-native/Libraries/DeprecatedPropTypes/DeprecatedStyleSheetPropType');
 const TextStylePropTypes = require('TextStylePropTypes');
 
 const stylePropType = StyleSheetPropType(TextStylePropTypes);

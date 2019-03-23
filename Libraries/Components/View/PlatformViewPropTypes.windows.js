@@ -7,9 +7,9 @@
  */
 
 const PropTypes = require('prop-types');
-const { AccessibilityTraits } = require('ViewAccessibility');
+const { DeprecatedAccessibilityTraits } = require('react-native/Libraries/DeprecatedPropTypes/DeprecatedViewAccessibility');
 
-const WindowsAccessibilityTraits = Array.from(AccessibilityTraits).concat(['listItem']);
+const WindowsAccessibilityTraits = Array.from(DeprecatedAccessibilityTraits).concat(['listItem']);
 
 module.exports = {
   /**

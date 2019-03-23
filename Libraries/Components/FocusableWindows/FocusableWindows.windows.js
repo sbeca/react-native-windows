@@ -38,16 +38,13 @@ var ViewPropTypes = require('ViewPropTypes');
 var requireNativeComponent = require('requireNativeComponent');
 var UIManager = require('UIManager');
 const flattenStyle = require('flattenStyle');
-const {
-  AccessibilityComponentTypes,
-  AccessibilityTraits,
- } = require('ViewAccessibility');
+const { DeprecatedAccessibilityTraits } = require('react-native/Libraries/DeprecatedPropTypes/DeprecatedViewAccessibility');
 /**
  * Add 'listItem' to supported traits.
  *
  * @platform windows
  */
-const FocusableWindowsAccessibilityTraits = Array.from(AccessibilityTraits).concat(['listItem']);
+const FocusableWindowsAccessibilityTraits = Array.from(DeprecatedAccessibilityTraits).concat(['listItem']);
 
 // This describes the propType based interface for WindowsControl
 class FocusableWindowsTemplate {

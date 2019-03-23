@@ -15,18 +15,18 @@
 
 'use strict';
 
-var ColorPropType = require('ColorPropType');
+var ColorPropType = require('react-native/Libraries/DeprecatedPropTypes/DeprecatedColorPropType');
 var PickerIOS = require('PickerIOS');
 var PickerAndroid = require('PickerAndroid');
 var PickerWindows = require('PickerWindows');
 var Platform = require('Platform');
 var React = require('React');
 const PropTypes = require('prop-types');
-var StyleSheetPropType = require('StyleSheetPropType');
+var StyleSheetPropType = require('react-native/Libraries/DeprecatedPropTypes/DeprecatedStyleSheetPropType');
 var TextStylePropTypes = require('TextStylePropTypes');
 var UnimplementedView = require('UnimplementedView');
-const ViewPropTypes = require('ViewPropTypes');
-var ViewStylePropTypes = require('ViewStylePropTypes');
+const ViewPropTypes = require('react-native/Libraries/DeprecatedPropTypes/DeprecatedViewPropTypes');
+var ViewStylePropTypes = require('react-native/Libraries/DeprecatedPropTypes/DeprecatedViewStylePropTypes');
 
 var itemStylePropType = StyleSheetPropType(TextStylePropTypes);
 

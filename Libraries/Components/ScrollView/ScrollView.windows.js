@@ -15,7 +15,7 @@
 'use strict';
 
 const AnimatedImplementation = require('AnimatedImplementation');
-const ColorPropType = require('ColorPropType');
+const ColorPropType = require('react-native/Libraries/DeprecatedPropTypes/DeprecatedColorPropType');
 const EdgeInsetsPropType = require('EdgeInsetsPropType');
 const Platform = require('Platform');
 const PointPropType = require('PointPropType');
@@ -25,10 +25,10 @@ const ReactNative = require('ReactNative');
 const ScrollResponder = require('ScrollResponder');
 const ScrollViewStickyHeader = require('ScrollViewStickyHeader');
 const StyleSheet = require('StyleSheet');
-const StyleSheetPropType = require('StyleSheetPropType');
+const StyleSheetPropType = require('react-native/Libraries/DeprecatedPropTypes/DeprecatedStyleSheetPropType');
 const View = require('View');
-const ViewPropTypes = require('ViewPropTypes');
-const ViewStylePropTypes = require('ViewStylePropTypes');
+const ViewPropTypes = require('react-native/Libraries/DeprecatedPropTypes/DeprecatedViewPropTypes');
+const ViewStylePropTypes = require('react-native/Libraries/DeprecatedPropTypes/DeprecatedViewStylePropTypes');
 
 const createReactClass = require('create-react-class');
 const dismissKeyboard = require('dismissKeyboard');
